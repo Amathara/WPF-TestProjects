@@ -10,14 +10,15 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MultipleViews.MVVM.View
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for BoardgamesPage.xaml
     /// </summary>
-    public partial class BoardgamesPage : Window
+    public partial class BoardgamesPage : UserControl
     {
         public BoardgamesPage()
         {

@@ -4,9 +4,32 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MultipleViews"
+        xmlns:model="clr-namespace:MultipleViews.MVVM.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="791"
+        Background="DarkSeaGreen">
 
+    <Grid Background="Lavender" Margin="0,0,0,0">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ContentControl Content="{Binding SelectedViewModel}"/>
+        
+        <StackPanel Grid.Column="0" Background="DarkSeaGreen">
+           
+            <Button Content="Forside" Height="24" Width="100" Margin="0,24,0,0"/>
+            <Button Content="Brætspil" Height="24" Width="100" Margin="0,24,0,0" Command="{Binding UpdateViewCommand}" CommandParameter="Brætspil"/>
+            <Button Content="Bøger" Height="24" Width="100" Margin="0,24,0,0" Command="{Binding UpdateViewCommand}" CommandParameter="Bøger"/>
+            <Button Content="Live-Udstyr" Height="24" Width="100" Margin="0,24,0,0"/>
+            
+        </StackPanel>
+        <DataGrid Grid.Column="1">
+    
+            <Label/>
+        </DataGrid>
+      
     </Grid>
 </Window>

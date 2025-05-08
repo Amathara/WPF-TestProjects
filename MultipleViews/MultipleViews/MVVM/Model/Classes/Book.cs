@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultipleViews.MVVM.ViewModel
+namespace MultipleViews.MVVM.Model.Classes
 {
-    internal class BoardgamesViewModel : ViewModelBase
+    internal class Book
     {
     }
 }

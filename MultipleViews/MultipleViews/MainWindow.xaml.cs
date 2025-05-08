@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MultipleViews.MVVM.ViewModel;
 
 namespace MultipleViews
 {
@@ -19,6 +20,8 @@ namespace MultipleViews
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = new MainWindowViewModel();
         }
     }
 }

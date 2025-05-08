@@ -10,14 +10,15 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MultipleViews.MVVM.View
 {
     /// <summary>
-    /// Interaction logic for Bøger.xaml
+    /// Interaction logic for BooksPage.xaml
     /// </summary>
-    public partial class BooksPage : Window
+    public partial class BooksPage : UserControl
     {
         public BooksPage()
         {
