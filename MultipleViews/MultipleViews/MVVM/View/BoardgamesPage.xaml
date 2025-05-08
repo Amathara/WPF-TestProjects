@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:MultipleViews.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="Red">
+             Background="#827D9B">
     <Grid>
          <Grid>
         <Grid Background="Lavender" Margin="0,0,668,0">

@@ -17,8 +17,8 @@
         </Grid.ColumnDefinitions>
 
         <ContentControl Content="{Binding SelectedViewModel}"/>
-        
-        <StackPanel Grid.Column="0" Background="DarkSeaGreen">
+
+        <StackPanel Grid.Column="0" Background="#565831">
            
             <Button Content="Forside" Height="24" Width="100" Margin="0,24,0,0"/>
             <Button Content="Brætspil" Height="24" Width="100" Margin="0,24,0,0" Command="{Binding UpdateViewCommand}" CommandParameter="Brætspil"/>

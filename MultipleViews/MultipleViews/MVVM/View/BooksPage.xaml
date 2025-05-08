@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:MultipleViews.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="CornflowerBlue">
+             Background="#92bb85">
     <Grid>
         <TextBox HorizontalAlignment="Left" Margin="368,186,0,0" TextWrapping="Wrap" Text="Halløj! Bøger her!" VerticalAlignment="Top" Width="120"/>
 
