@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using MultipleViews.MVVM.ViewModel;
+using MultipleViews.MVVM.View;
+using MultipleViews.MVVM.Model.Classes;
+using MultipleViews;
+
 
 namespace MultipleViews.Commands
 {

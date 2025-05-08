@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultipleViews.MVVM.ViewModel
 {
-    internal class BooksViewModel : ViewModelBase
+    public class BooksViewModel : ViewModelBase
     {
     }
 }

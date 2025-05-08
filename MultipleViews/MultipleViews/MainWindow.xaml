@@ -26,10 +26,7 @@
             <Button Content="Live-Udstyr" Height="24" Width="100" Margin="0,24,0,0"/>
             
         </StackPanel>
-        <DataGrid Grid.Column="1">
-    
-            <Label/>
-        </DataGrid>
+        <ContentControl Grid.Column="1" Content="{Binding SelectedViewModel}"/>
       
     </Grid>
 </Window>
