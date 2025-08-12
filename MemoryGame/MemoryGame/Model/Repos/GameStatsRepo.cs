@@ -9,6 +9,13 @@ namespace MemoryGame.Model.Repos
 {
     public class GameStatsRepo : IGameStatsRepo
     {
+        private string _filePath;
+        public GameStatsRepo(string filePath)
+        {
+            _filePath = filePath;
+        }
+
+
         public void SaveGame()
         {
             throw new NotImplementedException();
