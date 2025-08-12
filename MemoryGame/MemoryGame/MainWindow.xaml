@@ -6,7 +6,30 @@
         xmlns:local="clr-namespace:MemoryGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Background="Black">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="400"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+ 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0"></Label>
+        <Label Grid.Row="0" Grid.Column="0"></Label>
+        <Label Grid.Row="0" Grid.Column="0"></Label>
+        <Label Grid.Row="0" Grid.Column="0"></Label>
+        <Label Grid.Row="0" Grid.Column="0"></Label>
+        <Label Grid.Row="0" Grid.Column="0"></Label>
     </Grid>
 </Window>

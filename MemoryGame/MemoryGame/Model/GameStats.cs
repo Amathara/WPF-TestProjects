@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MemoryGame.Model
 {
-    internal class GameStats
+    public class GameStats
     {
         public string PlayerName { get; set; }
 

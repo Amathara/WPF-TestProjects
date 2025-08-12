@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MemoryGame.Model
 {
-    internal class Card
+    public class Card
     {
         public int Id { get; set; }
         public string Symbol { get; set; }
