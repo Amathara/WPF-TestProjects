@@ -11,7 +11,7 @@ namespace MemoryGame.Model.Repos.RepoInterfaces
     {
         public void SaveGame();
 
-        public List<GameStats> GetTop10();
+        public List<GameStat> GetTop10();
 
         public void GetGamesPlayer();
 

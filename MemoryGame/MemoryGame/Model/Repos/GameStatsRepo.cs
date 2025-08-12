@@ -14,7 +14,7 @@ namespace MemoryGame.Model.Repos
             throw new NotImplementedException();
         }
 
-        public List<GameStats> GetTop10()
+        public List<GameStat> GetTop10()
         {
             throw new NotImplementedException();
         }

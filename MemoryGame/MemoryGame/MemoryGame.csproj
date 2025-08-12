@@ -9,12 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Nausicaaa.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>
     <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Nausicaaa.png" />
   </ItemGroup>
 
 </Project>
