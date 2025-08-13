@@ -146,7 +146,7 @@
 
         <Label Grid.Column="2" Background="#C4C386" Grid.ColumnSpan="4" Margin="19,0,21,0" Content="000.000.000"  FontFamily="Franklin Gothic Book" VerticalAlignment="Center"/>
         <Label Grid.Row="0" Grid.Column="5" Background="#C4C386" Grid.ColumnSpan="6" Margin="0,0,40,0" Content="HighScores" VerticalAlignment="Center"  FontFamily="Franklin Gothic Book" FontSize="18"></Label>
-        <Button Style="{DynamicResource RoundeButtonStyle}" Grid.Row="1" Grid.Column="1"  Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click" Binding.SourceUpdated="Button_SourceUpdated">
+        <Button Style="{DynamicResource RoundeButtonStyle}" Grid.Row="1" Grid.Column="1"  Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
             <Button.Background>
                 <ImageBrush ImageSource="/Nausicaa symbolFill2.png" Stretch="UniformToFill"/>
             </Button.Background>
