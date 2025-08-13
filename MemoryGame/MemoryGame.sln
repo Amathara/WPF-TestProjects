@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{15F9031F-0240-4737-A9F6-8A1DD114A34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHelpers", "..\..\ClassLibraries\WpfHelpers\WpfHelpers\WpfHelpers.csproj", "{5025D636-62B8-04A9-F093-932EB03F008A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{15F9031F-0240-4737-A9F6-8A1DD114A34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F9031F-0240-4737-A9F6-8A1DD114A34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F9031F-0240-4737-A9F6-8A1DD114A34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5025D636-62B8-04A9-F093-932EB03F008A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5025D636-62B8-04A9-F093-932EB03F008A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5025D636-62B8-04A9-F093-932EB03F008A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5025D636-62B8-04A9-F093-932EB03F008A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

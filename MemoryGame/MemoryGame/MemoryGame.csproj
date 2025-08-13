@@ -10,16 +10,22 @@
 
   <ItemGroup>
     <None Remove="Fili.png" />
+    <None Remove="Nausicaa symbol.png" />
+    <None Remove="Nausicaa symbolFill.png" />
+    <None Remove="Nausicaa symbolFill2.png" />
     <None Remove="Nausicaaa.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModel\" />
     <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>
     <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ClassLibraries\WpfHelpers\WpfHelpers\WpfHelpers.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +36,9 @@
 
   <ItemGroup>
     <Resource Include="Fili.png" />
+    <Resource Include="Nausicaa symbol.png" />
+    <Resource Include="Nausicaa symbolFill.png" />
+    <Resource Include="Nausicaa symbolFill2.png" />
     <Resource Include="Nausicaaa.png" />
   </ItemGroup>
 
