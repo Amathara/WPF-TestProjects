@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fili.png" />
     <None Remove="Nausicaaa.png" />
   </ItemGroup>
 
@@ -22,6 +23,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="WpfHelpers">
+      <HintPath>..\..\..\ClassLibraries\WpfHelpers\WpfHelpers\obj\Release\net8.0-windows\WpfHelpers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fili.png" />
     <Resource Include="Nausicaaa.png" />
   </ItemGroup>
 
