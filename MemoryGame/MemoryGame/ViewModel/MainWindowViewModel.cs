@@ -30,7 +30,7 @@ namespace MemoryGame.ViewModel
         // ends here
         //public ObservableCollection<Card> Cards {  get; set; } = new ObservableCollection<Card>(); // To make a collection of cards. <- Maybe
 
-        /*
+        /* Fra Opgavebeskrivelse:
          Properties:
 public ObservableCollection<Card> Cards { get; set; }
 public string PlayerName { get; set; }
@@ -44,11 +44,45 @@ Commands:
 •	NewGameCommand
 •	SaveStatsCommand
 
+
+        public Void FlipCardCommand()
+        {
+        When pressing a card/button, this should happen:
+        1. Check if card is flipped first
+
+        2. Flip up to two cards (how do I "flip" something?) something with firstselectedcard + secondselectedcard..? 
+
+        3. Add to movecount after each flip.
+
+        4. check for match after two cards are flipped. isMatched?
+
+        5. if isMatched = True, Keep them flipped (aka do nothing) 
+           Else flip them back.
+
+        6. check if all cards are flipped -> if true = SaveStatsCommand (that works with repo). + Stops timer and movecount.
+
+
+        }
+
+        public void NewGameCommand()
+        {
+        1.Check if box has a name without commas.
+        2. Starts when pressing a button.
+        3. Resets timer.
+        4. Enables MoveCount (that only counts when you clock certain buttons)
+        5. Make new cards with random (paired) symbols
+        6.Shuffles cards (somehow?) Assigns random symbols to buttons?? "New random?"
+        }
+
+        public void SaveStatsCommand()
+        {
+        Saves all game sats: Playername, MoveCount, GameTime, DateTime
+        }
         */
 
 
-    
 
 
-}
+
+    }
 }
