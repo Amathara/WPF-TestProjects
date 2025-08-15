@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHelpers", "..\..\ClassLibraries\WpfHelpers\WpfHelpers\WpfHelpers.csproj", "{5025D636-62B8-04A9-F093-932EB03F008A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{AA01DCD8-CE6C-454C-9C19-1E180C0414BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5025D636-62B8-04A9-F093-932EB03F008A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5025D636-62B8-04A9-F093-932EB03F008A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5025D636-62B8-04A9-F093-932EB03F008A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA01DCD8-CE6C-454C-9C19-1E180C0414BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA01DCD8-CE6C-454C-9C19-1E180C0414BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA01DCD8-CE6C-454C-9C19-1E180C0414BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA01DCD8-CE6C-454C-9C19-1E180C0414BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
